@@ -81,8 +81,6 @@
 		EAD67FFD1B64D035005385A0 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				EAD680021B64D035005385A0 /* AppDelegate.h */,
-				EAD680031B64D035005385A0 /* AppDelegate.m */,
 				EAD680051B64D035005385A0 /* ViewController.h */,
 				EAD680061B64D035005385A0 /* ViewController.m */,
 				EAD680081B64D035005385A0 /* Main.storyboard */,
@@ -96,6 +94,8 @@
 		EAD67FFE1B64D035005385A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAD680021B64D035005385A0 /* AppDelegate.h */,
+				EAD680031B64D035005385A0 /* AppDelegate.m */,
 				EAD67FFF1B64D035005385A0 /* Info.plist */,
 				EAD680001B64D035005385A0 /* main.m */,
 			);
