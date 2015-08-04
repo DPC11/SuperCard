@@ -46,9 +46,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.cardView.suit = @"♣︎";
     self.cardView.rank = 13;
-    
-    // Add gesture recognizer to view in code
-    [self.cardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.cardView action:@selector(pinch:)]];
 }
 
 @end

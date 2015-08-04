@@ -144,6 +144,9 @@
     self.backgroundColor = nil;
     self.opaque = NO;
     self.contentMode =  UIViewContentModeRedraw;
+    
+    // Add gesture recognizer to view in code
+    [self addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinch:)]];
 }
 
 - (void)awakeFromNib {
